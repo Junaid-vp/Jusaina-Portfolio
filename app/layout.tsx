@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Outfit, Sacramento } from "next/font/google";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { InitialLoader } from "@/components/shared/initial-loader";
 import { Toaster } from "sonner";
 import "./globals.css";
 
@@ -51,9 +52,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jusaina-portfolio.vercel.app"),
   alternates: {
     canonical: "/",
-  },
-  verification: {
-    google: "your-google-site-verification-code",
   },
   openGraph: {
     type: "website",
@@ -131,6 +129,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-dvh flex flex-col">
+        <InitialLoader />
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>

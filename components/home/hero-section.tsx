@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, Play, Download } from "lucide-react";
+import { ArrowRight, Play, Download, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { heroContent } from "@/data/portfolio";
 import { HandwrittenLabel } from "@/components/shared/handwritten-label";
@@ -57,7 +57,10 @@ export function HeroSection() {
               <a
                 href="/Jusaina-Nargees-Resume.pdf"
                 download="Jusaina_Nargees_Resume.pdf"
-                onClick={() => toast.success("Downloading Resume...")}
+                onClick={() => toast("Downloading Resume...", {
+                  icon: <Loader2 className="w-3.5 h-3.5 animate-spin" />,
+                  duration: 3000
+                })}
                 className="inline-flex items-center gap-2 px-6 py-3 border border-border text-foreground font-medium rounded-xl hover:bg-cream hover:text-primary transition-colors duration-200"
               >
                 <Download className="w-4 h-4 text-primary" />
