@@ -33,7 +33,9 @@ export function InitialLoader() {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl animate-pulse" />
-              <SpeechHeartIcon className="relative w-16 h-16 text-primary drop-shadow-md animate-bounce" style={{ animationDuration: '2s' }} />
+              <div style={{ animationDuration: '2s' }} className="animate-bounce">
+                <SpeechHeartIcon className="relative w-16 h-16 text-primary drop-shadow-md" />
+              </div>
             </div>
             
             <div className="flex flex-col items-center gap-2">
