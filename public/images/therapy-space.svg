@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" rx="24" fill="#FFF4EC"/>
+  <rect x="1" y="1" width="598" height="448" rx="23" stroke="#EEDDD8" stroke-width="2"/>
+  <!-- Speech Heart Icon -->
+  <g transform="translate(260, 170)">
+    <path d="M40 8C40 5.79 41.79 4 44 4H60C62.21 4 64 5.79 64 8V22C64 24.21 62.21 26 60 26H50L44 32V26C41.79 26 40 24.21 40 22V8Z" stroke="#E96D91" stroke-width="2" stroke-opacity="0.3" fill="none"/>
+    <path d="M52 22C52 22 46 17.5 46 14C46 12.34 47.34 11 49 11C50.1 11 51.08 11.57 51.62 12.44L52 13L52.38 12.44C52.92 11.57 53.9 11 55 11C56.66 11 58 12.34 58 14C58 17.5 52 22 52 22Z" fill="#E96D91" fill-opacity="0.25"/>
+  </g>
+  <text x="300" y="260" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#6F6462">Therapy Space Photo</text>
+  <text x="300" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6F6462" opacity="0.6">Replace with your photo</text>
+</svg>
