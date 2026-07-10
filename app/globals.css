@@ -180,6 +180,14 @@
     margin: 0;
   }
 
+  /* Prevent iOS zoom on input focus */
+  @media screen and (max-width: 768px) {
+    input, select, textarea, button {
+      font-size: 16px !important;
+      touch-action: manipulation;
+    }
+  }
+
   /* Smooth reveal class for JS observer */
   .reveal {
     opacity: 0;
