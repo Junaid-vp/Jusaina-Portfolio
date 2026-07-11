@@ -99,6 +99,18 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Jusaina Nargees VP",
+              "alternateName": ["Jusaina Nargees", "Jusaina Portfolio"],
+              "url": "https://jusaina-portfolio.vercel.app"
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
               "@type": "Person",
               name: "Jusaina Nargees VP",
               jobTitle: "Speech-Language Pathologist",
