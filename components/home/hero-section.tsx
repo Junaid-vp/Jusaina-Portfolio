@@ -88,7 +88,7 @@ export function HeroSection() {
               {/* Portrait */}
               <div className="relative w-full h-full rounded-[1.5rem] overflow-hidden border-2 border-white/80 shadow-lg">
                 <Image
-                  src="/41e8cfc4-4c20-40c0-855e-4950958ba3b7.JPG"
+                  src="/3bd0e950-76e9-4bbd-938f-251645bc6b41.JPG"
                   alt="Jusaina Nargees VP, Speech-Language Pathologist"
                   fill
                   className="object-cover"
